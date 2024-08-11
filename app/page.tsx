@@ -1,11 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { Button } from "./_components/ui/button";
+import { View } from "lucide-react";
 
 const Home = () => {
   const [] = useState();
   return (
-    <h1 className="justify-center font-serif text-red-500 ">ERICK VINICIUS!</h1>
+    <Button>Aperte</Button>
   );
 }
 
